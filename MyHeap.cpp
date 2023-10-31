@@ -105,7 +105,7 @@ void MyHeap::pop()
     //Si el arreglo está vacio, no hacer nada
     if(size == 0)
     {
-        return;
+        throw invalid_argument("Heap Is Empty");
     }
 
 
